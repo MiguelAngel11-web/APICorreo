@@ -142,7 +142,7 @@ app.post("/sendmail", async (req, res) => {
   let mailOptions = {
     from: '"Kamel" <mgajas11games@gmail.com',
     to: "mike11lightbox@gmail.com",
-    subject: "Testing and Testing",
+    subject: "Contáctanos",
     html: contentHTML
   };
 
